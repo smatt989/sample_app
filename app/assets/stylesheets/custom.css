@@ -183,3 +183,38 @@ div.field, div.actions {
 	font-size: 12px;
 	list-style: square;
 }
+
+/* User index page */
+
+ul.users {
+	margin-top: 1em;
+}
+
+.users li {
+	list-style: none;
+}
+
+.pagination {
+	padding: 0 0.7em;
+	white-space: nowrap;
+}
+
+.pagination ul {
+	margin: 0;
+	padding: 0;
+}
+
+.pagination ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0.2em 0;
+}
+
+.pagination ul li a {
+	padding: 0 5px;
+	font-weight: bold;
+}
+
+.pagination li.active a{
+	color: black;
+}
