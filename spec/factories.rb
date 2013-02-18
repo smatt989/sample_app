@@ -6,3 +6,10 @@ FactoryGirl.define do
       user.password_confirmation	"foobar"
     end
 end
+
+FactoryGirl.define do
+	factory :micropost do |micropost|
+		micropost.content "Foo bar"
+		micropost.association :user
+	end
+end
